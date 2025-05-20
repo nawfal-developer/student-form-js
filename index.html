@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ <h1>STUDENT FORM</h1>
+
+<form action="">
+<table> 
+
+<tr>
+<th><label for="name">Name</label></th>     
+<td><input id="name" type="text" required></td></tr>
+ <tr>   
+<th><label for="age">Age</label></th>     
+<td><input id="age" type="number" min="16" max="23" required><br></tr></td>
+</tr>
+<tr>
+<th>
+Gender
+</th>
+<td> 
+<label for="Male">Male</label>   
+<input name="Gender" class="gender" id="Male" value="Male" type="radio">
+<label for="female">Female</label>
+<input name="Gender" class="gender" id="female"  value="female" type="radio" >
+</td>
+</tr>
+<tr>
+<th><label for="courses">Courses</label></th>     
+<td><select name="Courses" id="courses">
+    <option  value="java">java</option>
+    <option value="javascript">javascript</option>
+    <option value="python">python</option>
+</select>
+</td>
+</tr>
+<th><label for="Email">E-mail</label></td></th>
+<td><input type="email" name="email" id="email" required></td>
+<tr><td colspan="2"><button id="savebutton" type="button" onclick="addRow()" >save</button></td></tr>
+</table>
+</form>
+<br>
+<div id="secbox">
+<table id="tb2"  border="3">
+    <thead>
+    <tr>
+    <th>
+      Name  
+    </th>
+    <th>Age</th>
+    <th>Gender</th>
+    <th>Course</th>
+    <th>E-mail</th>
+    </tr>
+    </thead>
+    <tbody id="insrow"></tbody>
+</table>
+</div>
+<script src="./index.js"></script>
+</body>
+</html>

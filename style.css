@@ -1,0 +1,43 @@
+body{
+    background-color:darkred;
+    ;
+}
+button{
+     height: 30px;
+     width: 100%;
+     background-color:darkred;
+     color: white;
+     font-weight: bolder;
+}
+table{
+    background-color: lightgrey;
+    width: 20%;
+    height: 50vh;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+#t2{
+    text-align: center;
+    width: 500px;
+}
+#secbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tb2{
+    width:80%;
+}
+@media(max-width:676px){
+#tb2{
+    width:50%;
+}
+}
