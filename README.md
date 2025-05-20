@@ -3,6 +3,9 @@
 A simple web built with HTML, CSS, and JavaScript that allows users to add and delete student details dynamically. 
 This project is part of my web development learning journey.
 
+Your site is live at https://nawfal-developer.github.io/student-form-js/
+
+
 ##  Features
 
 - Add student details (Name, Age, Email, etc.)
